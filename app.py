@@ -30,7 +30,7 @@ if uploaded_file:
                 try:
                     # --- OpenRouter LLM via PandasAI ---
                     llm = OpenAI(
-                        api_token="your-openrouter-key",  # 🔑 Replace this with your OpenRouter API key
+                        api_token="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",  
                         api_base="https://openrouter.ai/api/v1",
                         model="mistralai/mistral-7b-instruct"  # ✅ Fast, free model
                     )
